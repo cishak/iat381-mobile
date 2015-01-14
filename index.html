@@ -1,11 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Challenge 1</title>
 
-<html lang='en'>
-  <head>
-    <meta charset='utf-8'>
-    <title>Test</title>
-  </head>
-  <body>
-    <p>Hello, World!</p>
-  </body>
-</html>
+  <!-- Bootstrap -->
+  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+      <div role="tabpanel">
+
+        <!-- Nav tabs -->
+        <ul id="myTab" class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+          <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+          <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="home">Home page</div>
+          <div role="tabpanel" class="tab-pane" id="profile">Profile page</div>
+          <div role="tabpanel" class="tab-pane" id="messages">Message page</div>
+          <div role="tabpanel" class="tab-pane" id="settings">Settings page</div>
+        </div>
+
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      
+      <script src="dist/js/bootstrap.min.js"></script>
+
+    </body>
+    </html>
